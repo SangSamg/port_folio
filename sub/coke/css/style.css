@@ -47,12 +47,17 @@ header .inner div{
     height: 100%;
     width: 100%;    
     object-fit: cover;
+    display: block;
 }
 
 /*------------------- cont01---------------------- */
 .cont01{
     width: 100%;
+    background-color: red;
     
+}
+.cont01 .title{
+    color: #fff;
 }
 .cont01 .title{
     width: 1440px;
@@ -65,19 +70,27 @@ header .inner div{
 }
 .cont01 .inner {   
     width: 100%;
-    border: 2px solid #d6d6d6;
+    /* border: 2px solid #d6d6d6; */
     border-right: none;
     border-left:none ;
+    
 }
 .cont01 .inner .item{
     display: flex;
     width: 1440px;
     margin: 0 auto;
     height: 70%;
+    background-color: #fff;
 }
 .cont01 .inner .item .blank{
     width: 25%;   
     border: 2px solid #888;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    /* background-color: rgb(176, 3, 3); */
 }
 
 .cont01 .inner .item .cont01_slide{
